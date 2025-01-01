@@ -1,0 +1,22 @@
+{
+    "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/assets/models/*.vrm"],
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "baseUrl": ".",
+      "outDir": "./dist",
+      "strict": true,
+      "jsx": "preserve",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "paths": {
+        "@/*": ["src/*"],
+        "@assets/*": ["src/assets/*"],
+        "@style/*": ["src/style/*"],
+        "@components/*": ["src/components/*"]
+      }
+    }
+  }
+  
