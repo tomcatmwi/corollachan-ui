@@ -1,0 +1,187 @@
+{
+  "neutral": {
+    "overrideBlink": false,
+    "leftEye": [0, 0, 0],
+    "rightEye": [0, 0, 0],
+    "lookUp": 0,
+    "lookDown": 0,
+    "lookLeft": 0,
+    "lookRight": 0,    
+    "keys": {
+      "angry": 0,
+      "relaxed": 0,
+      "happy": 0,
+      "sad": 0,
+      "surprised": 0,
+      "blink": 0,
+      "blinkRight": 0,
+      "blinkLeft": 0,
+      "aa": 0,
+      "ih": 0,
+      "ou": 0,
+      "ee": 0,
+      "oh": 0  
+    }
+  },
+  "lookLeft": {
+    "lookLeft": 10
+  },
+  "lookRight": {
+    "lookRight": 10
+  },
+  "lookUp": {
+    "lookUp": 10
+  },
+  "lookDown": {
+    "lookDown": 10
+  },
+  "lookCenter": {
+    "lookUp": 0,
+    "lookDown": 0,
+    "lookLeft": 0,
+    "lookRight": 0
+  },
+  "ahegao": {
+    "overrideBlink": true,
+    "overrideEyeMovements": true,
+    "leftEye": [-4, -8],
+    "rightEye": [-4, 6],    
+    "keys": {
+      "angry": 0.4,
+      "relaxed": 0.45,
+      "happy": 0.3,
+      "sad": 0,
+      "surprised": 0.95,
+      "blink": 0,
+      "aa": 0,
+      "ih": 0.0,
+      "ou": 0.35,
+      "ee": 0.2,
+      "oh": 0      
+    }
+  },
+  "happy": {
+    "overrideBlink": true,
+    "lookUp": 0,
+    "lookDown": 0,
+    "lookLeft": 0,
+    "lookRight": 0,    
+    "keys": {
+      "happy": 0.9,
+      "relaxed": 0.15,
+      "angry": 0,
+      "sad": 0,
+      "surprised": 0,
+      "blink": 0,
+      "blinkRight": 0,
+      "blinkLeft": 0  
+    }
+  },
+  "smile": {
+    "lookUp": 0,
+    "lookDown": 0,
+    "lookLeft": 0,
+    "lookRight": 0,    
+    "keys": {
+      "relaxed": 0.95,
+      "angry": 0,
+      "happy": 0,
+      "sad": 0,
+      "surprised": 0,
+      "blink": 0,
+      "blinkRight": 0,
+      "blinkLeft": 0
+    }
+  },
+  "sad": {
+    "lookUp": 0,
+    "lookDown": 2,
+    "lookLeft": 0,
+    "lookRight": 0,    
+    "keys": {
+      "sad": 0.8,
+      "angry": 0,
+      "relaxed": 0,
+      "happy": 0,
+      "surprised": 0,
+      "blink": 0,
+      "blinkRight": 0,
+      "blinkLeft": 0      
+    }
+  },
+  "angry": {
+    "lookUp": 2,
+    "lookDown": 0,
+    "lookLeft": 0,
+    "lookRight": 0,    
+    "keys": {
+      "angry": 1,
+      "relaxed": 0,
+      "happy": 0,
+      "sad": 0,
+      "surprised": 0,
+      "blink": 0,
+      "blinkRight": 0,
+      "blinkLeft": 0      
+    }
+  },
+  "smug": {
+    "overrideBlink": true,
+    "lookUp": 0,
+    "lookDown": 0,
+    "lookLeft": 0,
+    "lookRight": 0,    
+    "keys": {
+      "blink": 0.4,
+      "relaxed": 0.95,
+      "angry": 0,
+      "happy": 0,
+      "sad": 0,
+      "surprised": 0,
+      "blinkRight": 0,
+      "blinkLeft": 0
+    }
+  },
+  "shocked": {
+    "lookUp": 0,
+    "lookDown": 0,
+    "lookLeft": 0,
+    "lookRight": 0,    
+    "keys": {
+      "surprised": 0.9,
+      "angry": 0,
+      "relaxed": 0,
+      "happy": 0,
+      "sad": 0,
+      "blink": 0,
+      "blinkRight": 0,
+      "blinkLeft": 0      
+    }
+  },
+  "annoyed": {
+    "overrideBlink": true,
+    "lookUp": 5,
+    "lookDown": 0,
+    "lookLeft": 0,
+    "lookRight": 0,    
+    "keys": {
+      "angry": 1,
+      "blink": 0.35,
+      "relaxed": 0,
+      "happy": 0,
+      "sad": 0,
+      "surprised": 0,
+      "blinkRight": 0,
+      "blinkLeft": 0
+    }
+  },
+  "stfu": {
+    "keys": {
+      "aa": 0,
+      "ih": 0,
+      "ou": 0,
+      "ee": 0,
+      "oh": 0
+    }
+  }
+}

@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
-  assetsInclude: ['**/*.vrm'],
+  assetsInclude: ['**/*.vrm', '**/*.jpg', '**/*.fbx', '**/*.fcl'],
 
   resolve: {
     alias: {
@@ -12,6 +12,7 @@ export default defineConfig({
       '@assets': fileURLToPath(new URL('./src/assets', import.meta.url)),
       '@components': fileURLToPath(new URL('./src/components', import.meta.url)),
       '@style': fileURLToPath(new URL('./src/style', import.meta.url)),
+      '@utils': fileURLToPath(new URL('./src/utils', import.meta.url)),
       '@router': fileURLToPath(new URL('./src/router', import.meta.url)),
       '@views': fileURLToPath(new URL('./src/views', import.meta.url)),
     }

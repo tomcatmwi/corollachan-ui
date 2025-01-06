@@ -10,11 +10,15 @@
     "android": "adb reconnect && yarn build && yarn cap copy && yarn cap run android --device"
   },
   "dependencies": {
+    "@capacitor-community/text-to-speech": "^5.1.0",
     "@capacitor/android": "^6.2.0",
     "@capacitor/cli": "^6.2.0",
     "@capacitor/core": "^6.2.0",
     "@pixiv/three-vrm": "^3.3.2",
+    "androidspeak": "file:../plugins/androidspeak",
+    "gsap": "^3.12.5",
     "three": "^0.171.0",
+    "vite-plugin-static-copy": "^2.2.0",
     "vue": "^3.5.13",
     "vue-router": "4"
   },

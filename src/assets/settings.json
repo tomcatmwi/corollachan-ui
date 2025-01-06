@@ -1,0 +1,18 @@
+{
+    "speech": {
+        "rate": 1.2,
+        "pitch": 1.7,
+        "volume": 1
+    },
+    "subtitles": {
+        "on": true,
+        "length": 25
+    },
+    "eyes": {
+        "subtleEyeMovements": true,
+        "blinkRate": 8
+    },
+    "animations": {
+        "timeScale": 11
+    }
+}

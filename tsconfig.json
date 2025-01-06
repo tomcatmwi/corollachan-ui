@@ -1,5 +1,12 @@
 {
-    "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "src/assets/models/*.vrm"],
+    "include": [
+        "env.d.ts", 
+        "src/**/*", 
+        "src/**/*.vue", 
+        "src/**/*.vrm", 
+        "src/**/*.fcl", 
+        "src/**/*.fbx"
+    ],
     "compilerOptions": {
       "target": "ESNext",
       "module": "ESNext",
@@ -9,12 +16,19 @@
       "jsx": "preserve",
       "moduleResolution": "node",
       "esModuleInterop": true,
-      "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      "allowUnreachableCode": true,
+      "skipLibCheck": true,
+      "typeRoots": [
+        "./node_modules/@types"
+      ],
       "paths": {
         "@/*": ["src/*"],
         "@assets/*": ["src/assets/*"],
         "@style/*": ["src/style/*"],
+        "@utils/*": ["src/utils/*"],
         "@components/*": ["src/components/*"]
       }
     }
