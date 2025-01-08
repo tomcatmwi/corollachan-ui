@@ -1,0 +1,39 @@
+.idoru {
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.idoru .subtitles {
+    width: 100vw;
+    min-width: 100vw;
+    height: auto;
+    min-height: 10vh;
+    max-height: 10vh;
+    position: fixed;
+    left: 0;
+    bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+    box-sizing: border-box;
+}
+
+.idoru .subtitles .text {
+    padding: 0.5em;
+    font-size: 18pt;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 90vw;
+}

@@ -28,6 +28,7 @@
         "@/*": ["src/*"],
         "@assets/*": ["src/assets/*"],
         "@style/*": ["src/style/*"],
+        "@pinia": ["src/pinia/index.ts"],
         "@utils/*": ["src/utils/*"],
         "@components/*": ["src/components/*"]
       }

@@ -1,5 +1,6 @@
 {
     "speech": {
+        "language": "en-US",
         "rate": 1.2,
         "pitch": 1.7,
         "volume": 1
@@ -14,5 +15,9 @@
     },
     "animations": {
         "timeScale": 11
+    },
+    "cameraPositions": {
+        "full": [0, 1, 4],
+        "face": [0, 1.5, 1]
     }
 }
